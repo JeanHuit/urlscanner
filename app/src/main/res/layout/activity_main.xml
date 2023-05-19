@@ -29,4 +29,45 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         />
+
+    <Button
+        android:id="@+id/predict_btn"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="341dp"
+        android:text="Predict" />
+
+    <TextView
+        android:id="@+id/predict_view"
+        android:layout_width="349dp"
+        android:layout_height="99dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="402dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/train_btn"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="61dp"
+        android:text="Train" />
+
+    <TextView
+        android:id="@+id/training_view"
+        android:layout_width="370dp"
+        android:layout_height="174dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="143dp"
+        android:textSize="10dp" />
+
 </RelativeLayout>
